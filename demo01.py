@@ -5,7 +5,7 @@ print(98.0702) #小数
 print(True) #布尔值
 print(()) #元组
 print([]) #数组
-print({}) #字典
+print({}) #字典啊
 print("张颜齐",980702)
 print("张颜齐"+"林彦俊")
 print("张颜齐"*20)
