@@ -17,5 +17,36 @@ print(type(int("980702")))
 a=float(input("请输入："))
 b=float(input("请输入："))
 print("a+b=",a+b)
-'''
 print(len("1323546"))
+
+a=(1,2,3,4,"zyq","zyq","zyq","zyq","zyq","zyq","zyq","zyq","zyq","zyq","zyq","zyq","zyq","lyj",True,(1,"YoRoll-cbn"))
+# print(a.index("lyj"))
+# print(a.index("zyq"))
+# print(a.count("zyq"))
+# print(a[a.index((1,"YoRoll-cbn"))][1])
+print(a[0:4])
+print(a[4:17])
+print(a[17:])
+a=[1,2,3,4,"zyq","lyj",True,(1,"YoRoll-cbn")]
+a.append("张颜齐")
+print(a)'''
+a={"name":"zyq","age":23,0:"哈哈"}
+# #取值
+# print(a["name"])
+# #新增
+# a["high"]="183cm"
+# print(a)
+# #修改
+# a["age"]=22
+print(a)
+print(a.get("name"))
+a.update(grade=90)
+print(a)
+b=a.pop("grade")
+print(b)
+print(a)
+a.update(grade=90)
+print(a)
+a.update(grade=80)
+a.update(name="张颜齐")
+print(a)
