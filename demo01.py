@@ -29,7 +29,7 @@ print(a[4:17])
 print(a[17:])
 a=[1,2,3,4,"zyq","lyj",True,(1,"YoRoll-cbn")]
 a.append("张颜齐")
-print(a)'''
+print(a)
 a={"name":"zyq","age":23,0:"哈哈"}
 # #取值
 # print(a["name"])
@@ -49,4 +49,8 @@ a.update(grade=90)
 print(a)
 a.update(grade=80)
 a.update(name="张颜齐")
+print(a)'''
+a="zyq"+\
+    "lyj"+\
+        "YoRoll-cbn"
 print(a)
