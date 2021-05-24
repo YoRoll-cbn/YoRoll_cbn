@@ -1,0 +1,104 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_login",
+    "children" : [ {
+      "name" : "TestLogin",
+      "children" : [ {
+        "name" : "test_login[1-666@163.com-123456]",
+        "uid" : "fdfc6d7074d84052",
+        "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621835126524,
+          "stop" : 1621835126975,
+          "duration" : 451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "123456", "'666@163.com'" ]
+      }, {
+        "name" : "test_login[2-111@163.com-123456]",
+        "uid" : "e174d8d86d619478",
+        "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621835128747,
+          "stop" : 1621835128981,
+          "duration" : 234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "123456", "'111@163.com'" ]
+      }, {
+        "name" : "test_login[3-666@163.com-12345]",
+        "uid" : "1a162f0af2567f04",
+        "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621835130634,
+          "stop" : 1621835130821,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "12345", "'666@163.com'" ]
+      }, {
+        "name" : "test_login[4-None-123456]",
+        "uid" : "587f20d7da514034",
+        "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621835132422,
+          "stop" : 1621835132594,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "123456", "None" ]
+      }, {
+        "name" : "test_login[5-666@163.com-None]",
+        "uid" : "55853883d8b67955",
+        "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621835134414,
+          "stop" : 1621835134657,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5", "None", "'666@163.com'" ]
+      }, {
+        "name" : "test_login[6-666@163.com-12345678912345600]",
+        "uid" : "2d808a80aad35496",
+        "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621835136524,
+          "stop" : 1621835137118,
+          "duration" : 594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "6", "'12345678912345600'", "'666@163.com'" ]
+      }, {
+        "name" : "test_login[7-666@163.com-1234567]",
+        "uid" : "4a7c92df43df815a",
+        "parentUid" : "e75455cf76bd95e9050e793836e5ab99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621835139185,
+          "stop" : 1621835139502,
+          "duration" : 317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "7", "1234567", "'666@163.com'" ]
+      } ],
+      "uid" : "e75455cf76bd95e9050e793836e5ab99"
+    } ],
+    "uid" : "7db21133bf389fa43eef71e3fe0b0e68"
+  } ]
+}

@@ -1,0 +1,64 @@
+{
+  "uid" : "4a7c92df43df815a",
+  "name" : "test_login[7-666@163.com-1234567]",
+  "fullName" : "test_login.TestLogin#test_login",
+  "historyId" : "76c7eefec00be73970c48b8773951647",
+  "time" : {
+    "start" : 1621835139185,
+    "stop" : 1621835139502,
+    "duration" : 317
+  },
+  "description" : " 登录 ",
+  "descriptionHtml" : "<p>登录</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1MDMPFO"
+  }, {
+    "name" : "thread",
+    "value" : "19568-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "index",
+    "value" : "7"
+  }, {
+    "name" : "password",
+    "value" : "1234567"
+  }, {
+    "name" : "username",
+    "value" : "'666@163.com'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a7c92df43df815a.json",
+  "parameterValues" : [ "7", "1234567", "'666@163.com'" ]
+}

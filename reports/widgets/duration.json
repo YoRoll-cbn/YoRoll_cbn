@@ -1,0 +1,71 @@
+[ {
+  "uid" : "55853883d8b67955",
+  "name" : "test_login[5-666@163.com-None]",
+  "time" : {
+    "start" : 1621835134414,
+    "stop" : 1621835134657,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d808a80aad35496",
+  "name" : "test_login[6-666@163.com-12345678912345600]",
+  "time" : {
+    "start" : 1621835136524,
+    "stop" : 1621835137118,
+    "duration" : 594
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a7c92df43df815a",
+  "name" : "test_login[7-666@163.com-1234567]",
+  "time" : {
+    "start" : 1621835139185,
+    "stop" : 1621835139502,
+    "duration" : 317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "587f20d7da514034",
+  "name" : "test_login[4-None-123456]",
+  "time" : {
+    "start" : 1621835132422,
+    "stop" : 1621835132594,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a162f0af2567f04",
+  "name" : "test_login[3-666@163.com-12345]",
+  "time" : {
+    "start" : 1621835130634,
+    "stop" : 1621835130821,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e174d8d86d619478",
+  "name" : "test_login[2-111@163.com-123456]",
+  "time" : {
+    "start" : 1621835128747,
+    "stop" : 1621835128981,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdfc6d7074d84052",
+  "name" : "test_login[1-666@163.com-123456]",
+  "time" : {
+    "start" : 1621835126524,
+    "stop" : 1621835126975,
+    "duration" : 451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
