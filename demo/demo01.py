@@ -49,8 +49,33 @@ a.update(grade=90)
 print(a)
 a.update(grade=80)
 a.update(name="张颜齐")
-print(a)'''
+print(a)
 a="zyq"+\
     "lyj"+\
         "YoRoll-cbn"
 print(a)
+a=[("123456","123456"),("123456","1234567"),("12345","12345"),("","666666"),("666666",""),("666666","666666")]
+for i in a:
+    print(i[1])
+    print(type(i[0]))
+a="成功删除"
+b="网络错误！"'''
+print(a+b)
+c=0
+def a():
+    global c
+    b=1
+    if b==True:
+        c=2
+    print(c)
+a()
+print(c)
+#create a function:
+def myfunction():
+  global x
+  x = "hello"
+
+#execute the function:
+myfunction()
+#x should now be global, and accessible in the global scope.
+print(x)

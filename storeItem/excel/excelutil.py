@@ -5,7 +5,7 @@ class ExcelUtil:
 
     #获得项目路径
     def get_object_path(self):
-        return os.path.abspath(os.path.dirname(__file__)).split("pytest")[0]
+        return os.path.abspath(os.path.dirname(__file__)).split("storeItem")[0]
 
     def read_excel(self):
         #openpyxl,xlrd
@@ -22,6 +22,7 @@ class ExcelUtil:
             for cols in range(1,sheet.max_column+1):
                 temp_list.append(sheet.cell(rows,cols).value)
             all_list.append(temp_list)
+        print(all_list)
         return all_list
 
 if __name__ == '__main__':

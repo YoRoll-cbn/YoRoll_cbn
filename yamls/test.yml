@@ -1,0 +1,10 @@
+- name: 获得城市实时天气的接口
+  request:
+    url: https://tianqiapi.com/free/week
+    method: GET
+    data:
+      appid: 46697786
+      appsecret: TBl83rKf
+      city: 重庆
+  validate: 
+    eq: {city: 重庆}
